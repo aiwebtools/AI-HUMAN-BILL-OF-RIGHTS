@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "ai human bill of rights" },
+      { name: "description", content: "AI Accord drafts a comprehensive AI Bill of Rights to safeguard humanity from harmful AI while allowing AI growth." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "ai human bill of rights" },
+      { property: "og:description", content: "AI Accord drafts a comprehensive AI Bill of Rights to safeguard humanity from harmful AI while allowing AI growth." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "ai human bill of rights" },
+      { name: "twitter:description", content: "AI Accord drafts a comprehensive AI Bill of Rights to safeguard humanity from harmful AI while allowing AI growth." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/622acb38-6862-4be8-90f9-3b3de00c4f25/id-preview-fd62602a--f6ee7e0c-015f-4334-99fa-6a2ea08028c4.lovable.app-1779409436659.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/622acb38-6862-4be8-90f9-3b3de00c4f25/id-preview-fd62602a--f6ee7e0c-015f-4334-99fa-6a2ea08028c4.lovable.app-1779409436659.png" },
     ],
     links: [
       {
